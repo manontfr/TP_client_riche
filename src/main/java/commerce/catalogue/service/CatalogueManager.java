@@ -36,6 +36,7 @@ public class CatalogueManager {
 		}
 		return (article) ;
 	}
+	
 	public void supprimerArticleParRef(String inRefArticle) throws Exception {
 		Article article ;
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession() ;
