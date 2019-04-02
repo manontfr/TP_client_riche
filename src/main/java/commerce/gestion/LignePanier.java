@@ -16,6 +16,7 @@ public class LignePanier {
 	private double prixUnitaire;
 	private double prixTotal;
 	private int quantite;
+	
 	public LignePanier() {}
 	public void setArticle(Article inArticle) {
 		article = inArticle;
@@ -43,6 +44,7 @@ public class LignePanier {
 	public void recalculer() {
 		prixTotal = prixUnitaire * quantite;
 	}
+	
 	public boolean equals(Object o) {
 		boolean retour = false ;
 		if (!(o instanceof LignePanier))

@@ -15,6 +15,7 @@ import commerce.catalogue.domaine.modele.Article;
 
 public class Panier {
 	private double total;
+	private int fraisPort;
 	private ArrayList<LignePanier> lignesPanier;
 
 	public Panier() {
@@ -25,11 +26,34 @@ public class Panier {
 	}
 	public double getTotal() {
 		recalculer();
+		total += calculerFraisPort();
 		return total;
 	}
+	
+	public double getTotalCommande() {
+		recalculer();
+		return total;
+	}
+	
+	public int getFraisPort() {
+		return fraisPort;
+	}
+	public int calculerFraisPort() {
+		fraisPort = 10;
+		if (getTotal() >= 50) {
+			fraisPort = 0;
+		}
+		if (getTotal() >= 30) {
+			fraisPort = 5;
+		}
+		return fraisPort;
+	}
+	
+
 	public List<LignePanier> getLignesPanier() {
 		return lignesPanier;
 	}
+	
 	public void recalculer() {
 		total=0.0;
 		Iterator<LignePanier> i = lignesPanier.iterator() ;
@@ -39,6 +63,7 @@ public class Panier {
 			total += ligne.getPrixTotal();
 		}
 	}
+
 	public void ajouterLigne(Article inArticle) {
 		LignePanier lp = chercherLignePanier(inArticle) ;
 		if (lp == null) {
