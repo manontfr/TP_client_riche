@@ -105,11 +105,11 @@
 								</tr>
 								<tr class="shipping">
 									<th>Frait de port</th>
-									<td>Gratuit</td>
+									<td><span class="amount"><%=lePanier.getFraisPort()%>€</span></td>
 								</tr>
 								<tr class="order-total">
 									<th>Total</th>
-									<td><strong> <span class="amount"><%=lePanier.getTotal()%>€</span>
+									<td><strong> <span class="amount"><%=lePanier.getTotalCommande()%>€</span>
 									</strong></td>
 								</tr>
 							</tbody>
