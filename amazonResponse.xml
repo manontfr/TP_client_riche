@@ -1,149 +1,53 @@
 <ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <OperationRequest>
-    <RequestId>0de844e9-1914-4feb-8f70-cf565830438d</RequestId>
+    <RequestId>23564fa2-5691-4068-be75-dea19b481e05</RequestId>
     <Arguments>
-      <Argument Name="Keywords" Value="" />
+      <Argument Name="Keywords" Value="Orelsan" />
       <Argument Name="Operation" Value="ItemSearch" />
       <Argument Name="ResponseGroup" Value="Offers,ItemAttributes" />
       <Argument Name="SearchIndex" Value="Music" />
       <Argument Name="Service" Value="AWSECommerceService" />
-      <Argument Name="Timestamp" Value="2019-03-25T07:54:32Z" />
+      <Argument Name="Timestamp" Value="2019-03-27T08:18:11Z" />
       <Argument Name="Version" Value="2009-03-31" />
     </Arguments>
-    <RequestProcessingTime>3.1395559310913</RequestProcessingTime>
+    <RequestProcessingTime>2.2981209754944</RequestProcessingTime>
   </OperationRequest>
   <Items>
     <Request>
       <IsValid>True</IsValid>
       <ItemSearchRequest>
-        <Keywords />
+        <Keywords>Orelsan</Keywords>
         <ResponseGroup>Offers</ResponseGroup>
         <ResponseGroup>ItemAttributes</ResponseGroup>
         <SearchIndex>music</SearchIndex>
       </ItemSearchRequest>
     </Request>
     <Item>
-      <ASIN>B0051CBWV8</ASIN>
+      <ASIN>B075TNKVQD</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51uiPtyQ9kL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51aMWz3TBVL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51uiPtyQ9kL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51aMWz3TBVL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51uiPtyQ9kL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51aMWz3TBVL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>Queen</Artist>
+        <Artist>OrelSan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B0051CBWV8</EAN>
+        <EAN>B075TNKVQD</EAN>
         <EANList>
-          <EANListElement>B0051CBWV8</EANListElement>
+          <EANListElement>B075TNKVQD</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Queen Greatest Hits I, II &amp; III - Platinum Collection</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1499</Amount>
-          <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 14,99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B07GRLPXPB</ASIN>
-      <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51x7sWZIyQL._SL75_.jpg</URL>
-        <Height Units="pixels">74</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51x7sWZIyQL._SL160_.jpg</URL>
-        <Height Units="pixels">157</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51x7sWZIyQL._SL500_.jpg</URL>
-        <Height Units="pixels">492</Height>
-        <Width Units="pixels">500</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Artist>Lady Gaga</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>B07GRLPXPB</EAN>
-        <EANList>
-          <EANListElement>B07GRLPXPB</EANListElement>
-        </EANList>
-        <ProductGroup>Music</ProductGroup>
-        <Title>BOF "A star is born"</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1499</Amount>
-          <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 14,99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B07J34LZKW</ASIN>
-      <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41UoiByVrnL._SL75_.jpg</URL>
-        <Height Units="pixels">74</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41UoiByVrnL._SL160_.jpg</URL>
-        <Height Units="pixels">157</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41UoiByVrnL._SL500_.jpg</URL>
-        <Height Units="pixels">492</Height>
-        <Width Units="pixels">500</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Artist>Soprano</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>B07J34LZKW</EAN>
-        <EANList>
-          <EANListElement>B07J34LZKW</EANListElement>
-        </EANList>
-        <ProductGroup>Music</ProductGroup>
-        <Title>Phoenix [édition limitée]</Title>
+        <Title>La Fête Est Finie</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
@@ -167,37 +71,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B07NRFVBDN</ASIN>
+      <ASIN>B00B0XUVLY</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51+5mxMaYqL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61AJOOdZWAL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51+5mxMaYqL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61AJOOdZWAL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51+5mxMaYqL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61AJOOdZWAL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>Frédéric François</Artist>
+        <Artist>OrelSan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B07NRFVBDN</EAN>
+        <EAN>B00B0XUVLY</EAN>
         <EANList>
-          <EANListElement>B07NRFVBDN</EANListElement>
+          <EANListElement>B00B0XUVLY</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Juste un Peu d'Amour</Title>
+        <Title>Le Chant des Sirenes - Édition Victoires 2013</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1799</Amount>
+          <Amount>1099</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 17,99</FormattedPrice>
+          <FormattedPrice>EUR 10,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -215,37 +119,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B07Q1ZPMSC</ASIN>
+      <ASIN>B0056BMUYW</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61Cm8vDc2hL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41rcENe+v1L._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61Cm8vDc2hL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41rcENe+v1L._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61Cm8vDc2hL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41rcENe+v1L._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>Shy'M</Artist>
+        <Artist>OrelSan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B07Q1ZPMSC</EAN>
+        <EAN>B0056BMUYW</EAN>
         <EANList>
-          <EANListElement>B07Q1ZPMSC</EANListElement>
+          <EANListElement>B0056BMUYW</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Agape / Digipack</Title>
+        <Title>Perdu d'Avance</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1496</Amount>
+          <Amount>1099</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 14,96</FormattedPrice>
+          <FormattedPrice>EUR 10,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -263,37 +167,133 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B07PGPLPVZ</ASIN>
+      <ASIN>B07MCDY1F4</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41xTJWkV7yL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61RF38jPQWL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41xTJWkV7yL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61RF38jPQWL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41xTJWkV7yL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61RF38jPQWL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>M. Pokora</Artist>
+        <Artist>Orelsan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B07PGPLPVZ</EAN>
+        <EAN>B07MCDY1F4</EAN>
         <EANList>
-          <EANListElement>B07PGPLPVZ</EANListElement>
+          <EANListElement>B07MCDY1F4</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>PYRAMIDE (Edition collector)</Title>
+        <Title>Le Chant des Sirènes</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1999</Amount>
+          <Amount>2602</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 19,99</FormattedPrice>
+          <FormattedPrice>EUR 26,02</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00FMLUM0A</ASIN>
+      <SmallImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51IpI1sqZtL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51IpI1sqZtL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51IpI1sqZtL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Casseurs Flowters</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B00FMLUM0A</EAN>
+        <EANList>
+          <EANListElement>B00FMLUM0A</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Orelsan &amp; Gringe Sont les Casseurs Flowters</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 12,99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B07JJ6HKS1</ASIN>
+      <SmallImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ofhlFxWxL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ofhlFxWxL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ofhlFxWxL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Casseurs Flowters</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B07JJ6HKS1</EAN>
+        <EANList>
+          <EANListElement>B07JJ6HKS1</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Orelsan et Gringe sont les Casseurs Flowters</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3407</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 34,07</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>

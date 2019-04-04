@@ -19,15 +19,15 @@
 									.getAttribute("catalogueManager");
 		InitAmazon initA = new InitAmazon(catalogueManager);
 		String previousSearch = "";
-		System.out.println("ok :" + request.getParameter("search"));
-		
+
 		if (request.getParameter("search") != null ) {
-			System.out.println("allo");
+			
 		    List<Article> articles = catalogueManager.getArticles();
 		    for(Article a : articles) {
 				catalogueManager.supprimerArticleParRef(a.getRefArticle());
 			}
 			initA.init(request.getParameter("search"));
+			previousSearch = request.getParameter("search");
 			
 			
 		} else {
@@ -71,7 +71,7 @@
 	<div class="col-full">
 		<div class="primary" class="content-area">
 			<section id="main" class="site-main" role="main">
-				<h1 class="page-title">Résultats de la recherche</h1>
+				<h1 class="page-title">Résultats de la recherche pour "<%=previousSearch%>"</h1>
 				<ul class="products">
 					<%
 							listeDesArticles = articles.iterator() ;
