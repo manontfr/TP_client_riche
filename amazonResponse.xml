@@ -1,59 +1,59 @@
 <ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <OperationRequest>
-    <RequestId>9f2bfdfa-9708-43b2-a973-5e58a51cb8b0</RequestId>
+    <RequestId>23564fa2-5691-4068-be75-dea19b481e05</RequestId>
     <Arguments>
-      <Argument Name="Keywords" Value="Ibrahim Maalouf" />
+      <Argument Name="Keywords" Value="Orelsan" />
       <Argument Name="Operation" Value="ItemSearch" />
       <Argument Name="ResponseGroup" Value="Offers,ItemAttributes" />
       <Argument Name="SearchIndex" Value="Music" />
       <Argument Name="Service" Value="AWSECommerceService" />
-      <Argument Name="Timestamp" Value="2019-03-5T12:32:23Z" />
+      <Argument Name="Timestamp" Value="2019-03-27T08:18:11Z" />
       <Argument Name="Version" Value="2009-03-31" />
     </Arguments>
-    <RequestProcessingTime>3.5217759609222</RequestProcessingTime>
+    <RequestProcessingTime>2.2981209754944</RequestProcessingTime>
   </OperationRequest>
   <Items>
     <Request>
       <IsValid>True</IsValid>
       <ItemSearchRequest>
-        <Keywords>Ibrahim Maalouf</Keywords>
+        <Keywords>Orelsan</Keywords>
         <ResponseGroup>Offers</ResponseGroup>
         <ResponseGroup>ItemAttributes</ResponseGroup>
-        <SearchIndex>Music</SearchIndex>
+        <SearchIndex>music</SearchIndex>
       </ItemSearchRequest>
     </Request>
     <Item>
-      <ASIN>B01JGQ3NIE</ASIN>
+      <ASIN>B075TNKVQD</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41l8xLm2YRL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51aMWz3TBVL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41l8xLm2YRL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51aMWz3TBVL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41l8xLm2YRL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51aMWz3TBVL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>OrelSan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B01JGQ3NIE</EAN>
+        <EAN>B075TNKVQD</EAN>
         <EANList>
-          <EANListElement>B01JGQ3NIE</EANListElement>
+          <EANListElement>B075TNKVQD</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>10 ans de Live - Livre-Disque Édition Limitée (CD Best Of 9 titres + DVD Best Of 9 titres + 5 bonus)</Title>
+        <Title>La Fête Est Finie</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1699</Amount>
+          <Amount>1399</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 16,99</FormattedPrice>
+          <FormattedPrice>EUR 13,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -71,37 +71,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B07FJKSKRC</ASIN>
+      <ASIN>B00B0XUVLY</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51s4XBo3LqL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61AJOOdZWAL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51s4XBo3LqL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61AJOOdZWAL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51s4XBo3LqL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61AJOOdZWAL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf et Stéphane Galland</Artist>
+        <Artist>OrelSan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B07FJKSKRC</EAN>
+        <EAN>B00B0XUVLY</EAN>
         <EANList>
-          <EANListElement>B07FJKSKRC</EANListElement>
+          <EANListElement>B00B0XUVLY</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Levantine Symphony No. 1</Title>
+        <Title>Le Chant des Sirenes - Édition Victoires 2013</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1699</Amount>
+          <Amount>1099</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 16,99</FormattedPrice>
+          <FormattedPrice>EUR 10,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -119,37 +119,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B012TY3XQC</ASIN>
+      <ASIN>B0056BMUYW</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51on9mCgE4L._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41rcENe+v1L._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51on9mCgE4L._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41rcENe+v1L._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51on9mCgE4L._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41rcENe+v1L._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>OrelSan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B012TY3XQC</EAN>
+        <EAN>B0056BMUYW</EAN>
         <EANList>
-          <EANListElement>B012TY3XQC</EANListElement>
+          <EANListElement>B0056BMUYW</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Red &amp; Black Light</Title>
+        <Title>Perdu d'Avance</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1499</Amount>
+          <Amount>1099</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 14,99</FormattedPrice>
+          <FormattedPrice>EUR 10,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -167,37 +167,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B074WVY89Z</ASIN>
+      <ASIN>B07MCDY1F4</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61EDIrhWG-L._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61RF38jPQWL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61EDIrhWG-L._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61RF38jPQWL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61EDIrhWG-L._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61RF38jPQWL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>Orelsan</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B074WVY89Z</EAN>
+        <EAN>B07MCDY1F4</EAN>
         <EANList>
-          <EANListElement>B074WVY89Z</EANListElement>
+          <EANListElement>B07MCDY1F4</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Illusions</Title>
+        <Title>Le Chant des Sirènes</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1599</Amount>
+          <Amount>2602</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 15,99</FormattedPrice>
+          <FormattedPrice>EUR 26,02</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -215,37 +215,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B075M4ZXTB</ASIN>
+      <ASIN>B00FMLUM0A</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51-mHUUvrmL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51IpI1sqZtL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51-mHUUvrmL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51IpI1sqZtL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51-mHUUvrmL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51IpI1sqZtL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf et Thomas Dutronc</Artist>
+        <Artist>Casseurs Flowters</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B075M4ZXTB</EAN>
+        <EAN>B00FMLUM0A</EAN>
         <EANList>
-          <EANListElement>B075M4ZXTB</EANListElement>
+          <EANListElement>B00FMLUM0A</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Dalida By Ibrahim Maalouf</Title>
+        <Title>Orelsan &amp; Gringe Sont les Casseurs Flowters</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>699</Amount>
+          <Amount>1299</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 6,99</FormattedPrice>
+          <FormattedPrice>EUR 12,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -263,37 +263,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B076ML49PQ</ASIN>
+      <ASIN>B07JJ6HKS1</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KZnnKxzoL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ofhlFxWxL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KZnnKxzoL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ofhlFxWxL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KZnnKxzoL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51ofhlFxWxL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>Casseurs Flowters</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B076ML49PQ</EAN>
+        <EAN>B07JJ6HKS1</EAN>
         <EANList>
-          <EANListElement>B076ML49PQ</EANListElement>
+          <EANListElement>B07JJ6HKS1</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Diagnostic</Title>
+        <Title>Orelsan et Gringe sont les Casseurs Flowters</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>partir</Amount>
-          <CurrencyCode>à</CurrencyCode>
-          <FormattedPrice>à partir de EUR 42,51</FormattedPrice>
+          <Amount>3407</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 34,07</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
