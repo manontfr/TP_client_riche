@@ -26,16 +26,18 @@ public class Panier {
 	}
 	public double getTotal() {
 		recalculer();
-		total += calculerFraisPort();
 		return total;
 	}
 	
 	public double getTotalCommande() {
 		recalculer();
-		return total;
+		total += calculerFraisPort();
+		double roundOff = Math.round(total*100.0)/100.0;
+		return roundOff;
 	}
 	
 	public int getFraisPort() {
+		calculerFraisPort();
 		return fraisPort;
 	}
 	public int calculerFraisPort() {
@@ -43,7 +45,7 @@ public class Panier {
 		if (getTotal() >= 50) {
 			fraisPort = 0;
 		}
-		if (getTotal() >= 30) {
+		else if (getTotal() >= 30) {
 			fraisPort = 5;
 		}
 		return fraisPort;

@@ -101,7 +101,7 @@
 							<tbody>
 								<tr class="cart-subtotal">
 									<th>Sous-total</th>
-									<td><span class="amount"><%=lePanier.getTotalCommande()%>€</span></td>
+									<td><span class="amount"><%=lePanier.getTotal()%>€</span></td>
 								</tr>
 								<tr class="shipping">
 									<th>Frait de port</th>
@@ -109,7 +109,7 @@
 								</tr>
 								<tr class="order-total">
 									<th>Total</th>
-									<td><strong> <span class="amount"><%=lePanier.getTotal()%>€</span>
+									<td><strong> <span class="amount"><%=lePanier.getTotalCommande()%>€</span>
 									</strong></td>
 								</tr>
 							</tbody>
