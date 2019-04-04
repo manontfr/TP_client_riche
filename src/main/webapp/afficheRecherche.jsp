@@ -28,8 +28,7 @@
 			}
 			initA.init(request.getParameter("search"));
 			previousSearch = request.getParameter("search");
-			
-			
+				
 		} else {
 			initA.init("");
 		}
@@ -38,9 +37,7 @@
 		Iterator<Article> listeDesArticles ;
 		Livre livre = null;
 		Musique musique = null;
-		Article article;
-		
-		
+		Article article;	
 %>
 
 
