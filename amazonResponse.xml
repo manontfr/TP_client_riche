@@ -1,16 +1,16 @@
 <ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <OperationRequest>
-    <RequestId>9f2bfdfa-9708-43b2-a973-5e58a51cb8b0</RequestId>
+    <RequestId>fefdba59-95d1-400a-b3da-076654a40a0a</RequestId>
     <Arguments>
       <Argument Name="Keywords" Value="Ibrahim Maalouf" />
       <Argument Name="Operation" Value="ItemSearch" />
       <Argument Name="ResponseGroup" Value="Offers,ItemAttributes" />
       <Argument Name="SearchIndex" Value="Music" />
       <Argument Name="Service" Value="AWSECommerceService" />
-      <Argument Name="Timestamp" Value="2019-03-5T12:32:23Z" />
+      <Argument Name="Timestamp" Value="2019-03-23T12:40:59Z" />
       <Argument Name="Version" Value="2009-03-31" />
     </Arguments>
-    <RequestProcessingTime>3.5217759609222</RequestProcessingTime>
+    <RequestProcessingTime>2.5185170173645</RequestProcessingTime>
   </OperationRequest>
   <Items>
     <Request>
@@ -19,41 +19,41 @@
         <Keywords>Ibrahim Maalouf</Keywords>
         <ResponseGroup>Offers</ResponseGroup>
         <ResponseGroup>ItemAttributes</ResponseGroup>
-        <SearchIndex>Music</SearchIndex>
+        <SearchIndex>music</SearchIndex>
       </ItemSearchRequest>
     </Request>
     <Item>
-      <ASIN>B01JGQ3NIE</ASIN>
+      <ASIN>B07HQ7G8GN</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41l8xLm2YRL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41liKe+BxPL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41l8xLm2YRL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41liKe+BxPL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41l8xLm2YRL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41liKe+BxPL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>Ibrahim Maalouf</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B01JGQ3NIE</EAN>
+        <EAN>B07HQ7G8GN</EAN>
         <EANList>
-          <EANListElement>B01JGQ3NIE</EANListElement>
+          <EANListElement>B07HQ7G8GN</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>10 ans de Live - Livre-Disque Édition Limitée (CD Best Of 9 titres + DVD Best Of 9 titres + 5 bonus)</Title>
+        <Title>14.12.16 - Live in Paris</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1699</Amount>
+          <Amount>3999</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 16,99</FormattedPrice>
+          <FormattedPrice>EUR 39,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -88,7 +88,7 @@
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf et Stéphane Galland</Artist>
+        <Artist>Ibrahim Maalouf</Artist>
         <Binding>Audio CD</Binding>
         <EAN>B07FJKSKRC</EAN>
         <EANList>
@@ -136,7 +136,7 @@
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>Ibrahim Maalouf</Artist>
         <Binding>Audio CD</Binding>
         <EAN>B012TY3XQC</EAN>
         <EANList>
@@ -184,7 +184,7 @@
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>Ibrahim Maalouf</Artist>
         <Binding>Audio CD</Binding>
         <EAN>B074WVY89Z</EAN>
         <EANList>
@@ -215,37 +215,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B075M4ZXTB</ASIN>
+      <ASIN>B075TQRVB4</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51-mHUUvrmL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41U6WdEbzbL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51-mHUUvrmL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41U6WdEbzbL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51-mHUUvrmL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41U6WdEbzbL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf et Thomas Dutronc</Artist>
+        <Artist>Ibrahim Maalouf</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B075M4ZXTB</EAN>
+        <EAN>B075TQRVB4</EAN>
         <EANList>
-          <EANListElement>B075M4ZXTB</EANListElement>
+          <EANListElement>B075TQRVB4</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Dalida By Ibrahim Maalouf</Title>
+        <Title>Dia</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>699</Amount>
+          <Amount>2199</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 6,99</FormattedPrice>
+          <FormattedPrice>EUR 21,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -263,37 +263,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B076ML49PQ</ASIN>
+      <ASIN>B011CWB0M6</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KZnnKxzoL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41L9rDBuYsL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KZnnKxzoL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41L9rDBuYsL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51KZnnKxzoL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41L9rDBuYsL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>de Ibrahim Maalouf</Artist>
+        <Artist>Ibrahim Maalouf</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B076ML49PQ</EAN>
+        <EAN>B011CWB0M6</EAN>
         <EANList>
-          <EANListElement>B076ML49PQ</EANListElement>
+          <EANListElement>B011CWB0M6</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Diagnostic</Title>
+        <Title>Kalthoum</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>partir</Amount>
-          <CurrencyCode>à</CurrencyCode>
-          <FormattedPrice>à partir de EUR 42,51</FormattedPrice>
+          <Amount>1499</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 14,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>

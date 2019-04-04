@@ -7,6 +7,8 @@
 
 package commerce.gestion;
 
+import java.text.DecimalFormat;
+
 import commerce.catalogue.domaine.modele.Article;
 
 public class LignePanier {
@@ -14,6 +16,7 @@ public class LignePanier {
 	private double prixUnitaire;
 	private double prixTotal;
 	private int quantite;
+	
 	public LignePanier() {}
 	public void setArticle(Article inArticle) {
 		article = inArticle;
@@ -29,7 +32,8 @@ public class LignePanier {
 		return prixUnitaire;
 	}
 	public double getPrixTotal() {
-		return (prixTotal);
+	    double roundOff = Math.round(prixTotal*100.0)/100.0;
+		return (roundOff);
 	}
 	public void setQuantite(int inQuantite) {
 		quantite = inQuantite;
@@ -40,6 +44,7 @@ public class LignePanier {
 	public void recalculer() {
 		prixTotal = prixUnitaire * quantite;
 	}
+	
 	public boolean equals(Object o) {
 		boolean retour = false ;
 		if (!(o instanceof LignePanier))
