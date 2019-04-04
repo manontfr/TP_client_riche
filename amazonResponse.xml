@@ -1,22 +1,22 @@
 <ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <OperationRequest>
-    <RequestId>23564fa2-5691-4068-be75-dea19b481e05</RequestId>
+    <RequestId>d1a836d3-39d8-4bb2-88d5-1283ccdb4d07</RequestId>
     <Arguments>
-      <Argument Name="Keywords" Value="Orelsan" />
+      <Argument Name="Keywords" Value="orelsan" />
       <Argument Name="Operation" Value="ItemSearch" />
       <Argument Name="ResponseGroup" Value="Offers,ItemAttributes" />
       <Argument Name="SearchIndex" Value="Music" />
       <Argument Name="Service" Value="AWSECommerceService" />
-      <Argument Name="Timestamp" Value="2019-03-27T08:18:11Z" />
+      <Argument Name="Timestamp" Value="2019-03-25T08:27:10Z" />
       <Argument Name="Version" Value="2009-03-31" />
     </Arguments>
-    <RequestProcessingTime>2.2981209754944</RequestProcessingTime>
+    <RequestProcessingTime>2.372269153595</RequestProcessingTime>
   </OperationRequest>
   <Items>
     <Request>
       <IsValid>True</IsValid>
       <ItemSearchRequest>
-        <Keywords>Orelsan</Keywords>
+        <Keywords>orelsan</Keywords>
         <ResponseGroup>Offers</ResponseGroup>
         <ResponseGroup>ItemAttributes</ResponseGroup>
         <SearchIndex>music</SearchIndex>

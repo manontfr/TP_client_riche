@@ -23,7 +23,15 @@ public class Musique extends Article {
 	private String artiste;
 	private String EAN;
 	private String dateDeParution;
+	//private String avis; //added
 	private List<Piste> pistes;
+	
+//	public String getAvis() { //added
+//		return avis;
+//	}
+//	public void setAvis(String inAvis) { //added
+//		this.avis = inAvis;
+//	}
 
 	@Basic
 	public String getArtiste() {

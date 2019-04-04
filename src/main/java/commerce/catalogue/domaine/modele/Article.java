@@ -26,6 +26,14 @@ public class Article {
 	private String image;
 	private double prix;
 	private int disponibilite;
+	//private String avis; // added
+	
+//	public String getAvis() { //added
+//		return avis;
+//	}
+//	public void setAvis(String inAvis) { //added
+//		this.avis = inAvis;
+//	}
 
 	@Id
 	public String getRefArticle() {
@@ -72,6 +80,8 @@ public class Article {
 	public void setDisponibilite(int inDisponibilite) {
 		disponibilite = inDisponibilite;
 	}
+	
+	
 
 	public boolean equals(Object o) {
 		boolean retour = false ;

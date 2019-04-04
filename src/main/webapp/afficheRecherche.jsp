@@ -6,68 +6,44 @@
 <%@ page import="commerce.catalogue.domaine.modele.Musique"%>
 <%@ page import="commerce.catalogue.domaine.modele.Piste"%>
 <%@ page import="commerce.catalogue.service.InitAmazon"%>
-<%@ page import="tp.Word"%>
 <%@ page import="java.util.Iterator"%>
 <%@ page import="java.util.List"%>
 
-<%
-     /* Cookie killMyCookie = new Cookie("mycookie", null);
-     killMyCookie.setMaxAge(0);
-     killMyCookie.setPath("/");
-     response.addCookie(killMyCookie); */
-     
-    /*  Cookie[] cookies = request.getCookies();
-     
-     cookies[0].setMaxAge(0);
-     response.addCookie(cookies[0]); */
-     
-%>
+
 
 <%
 	if (session.getAttribute("panier")==null) {
 		response.sendRedirect("./index.jsp");
 	} else {
-		/* String word = Word.word; */
 		CatalogueManager catalogueManager = (CatalogueManager) application
 									.getAttribute("catalogueManager");
 		InitAmazon initA = new InitAmazon(catalogueManager);
-		//InitAmazon test = new InitAmazon(catalogueManager);
 		String previousSearch = "";
 		System.out.println("ok :" + request.getParameter("search"));
 		
-		if (request.getParameter("search") != null && request.getParameter("search") != Word.word) {
+		if (request.getParameter("search") != null ) {
 			System.out.println("allo");
-			
-			Word.word = request.getParameter("search");
 		    List<Article> articles = catalogueManager.getArticles();
-			/* for(Object o : catalogueManager.getArticles()) {
-				articles.add(o);
-			} */
-			
 		    for(Article a : articles) {
 				catalogueManager.supprimerArticleParRef(a.getRefArticle());
 			}
 			initA.init(request.getParameter("search"));
-			/* Cookie[] cookies = request.getCookies();
-		     cookies[0].setMaxAge(0);
-		     response.addCookie(cookies[0]); */
+			
 			
 		} else {
 			initA.init("");
 		}
-		
 		
 		List<Article> articles = catalogueManager.getArticles();
 		Iterator<Article> listeDesArticles ;
 		Livre livre = null;
 		Musique musique = null;
 		Article article;
+		
+		
 %>
 
 
-<%-- <% System.out.println(request.getServletPath());
-System.out.println();
-%> --%>
 <nav id="navigation" class="col-full" role="navigation">
 	<ul id="main-nav" class="nav fl">
 		<li id="menu-item-290"
@@ -90,33 +66,7 @@ System.out.println();
 		      <input type="submit" value="Submit">
 		       </form>
 	  		</div>
-		
-		      
-		     
-		      
-		      
-		     <!--  + document.getElementById("search").value -->
-		       <%-- <a href="<%=response.encodeURL("./nouvelleRecherche.jsp?search=" + "document.getElementById(\"search\").value") %>" > Clique</a> --%>
-		      
-		      
-		      
-		     <%--  <script type="text/javascript">
-				 function changeSearch(){
-					 var searchWord = document.getElementById("search").value;
-					 console.log("word = " + searchWord);
-					 <% 
-					 	Word.word = (String) "searchWord";
-					 	System.out.println(Word.word);
-					 %>
-					 
-					
-					 
-				 } 
-			  </script> --%>
-		      
-	
-		      
-		      
+     
 		     
 		   
 	</ul>
@@ -146,6 +96,9 @@ System.out.println();
 							<h3><%=article.getTitre()%></h3> <span class="price"><ins>
 									<span class="amount"><%=article.getPrix()%> €</span>
 								</ins></span>
+							
+							
+							
 
 					</a> <a
 						href="<%=response.encodeURL("./controlePanier.jsp?refArticle="

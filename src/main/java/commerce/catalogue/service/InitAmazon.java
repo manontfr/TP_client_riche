@@ -66,7 +66,7 @@ public class InitAmazon {
 		conf.setAccessKey(AWS_ACCESS_KEY_ID) ;
 		conf.setSecretKey(AWS_SECRET_KEY);
 		conf.setEndPoint(ENDPOINT);
-
+//		ResponseGroup=Reviews
 
 		ApaiIO apaiIO = new ApaiIO();
 		apaiIO.setConfiguration(conf) ;
@@ -106,12 +106,14 @@ public class InitAmazon {
 				Element item ;
 				Element itemAttributes ;
 				Element image ;		
+				//Element reviews ; //added
 				int i = 0 ;
 				//items.getContentSize()
 				while (itemIterator.hasNext() && i != items.getContentSize() ) {
 					item = itemIterator.next() ;
 					itemAttributes = item.getChild("ItemAttributes",espaceNom);
 					image = item.getChild("LargeImage",espaceNom);
+					//reviews = item.getChild("CustomerReviews", espaceNom); //added
 					musique = new Musique();
 					try 
 					{
@@ -122,6 +124,12 @@ public class InitAmazon {
 							musique.setImage(image.getChild("URL",espaceNom).getText());
 							musique.setPrix(Integer.parseInt(item.getChild("OfferSummary",espaceNom).getChild("LowestNewPrice",espaceNom).getChild("Amount",espaceNom).getText())/100.0);
 							musique.setDisponibilite(1);
+							//System.out.println("reviews = " + reviews.getChild("IFrameURL", espaceNom).getText()); // added
+							//if(reviews.getChild("HasReviews").getText() == "true") { //added
+								//System.out.println("reviews = " + reviews.getChild("IFrameURL", espaceNom).getText());
+								//musique.setAvis(reviews.getChild("IFrameURL", espaceNom).getText()); //added
+							//}
+							
 
 							DeezerClient deezerClient = new DeezerClient();
 							Artists artists = deezerClient.search(new SearchArtist(keywords)) ;
