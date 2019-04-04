@@ -38,12 +38,13 @@ import commerce.catalogue.domaine.modele.Piste;
 public class InitAmazon {
 
 	private CatalogueManager catalogueManager ;
+	public static int connections = 0;
 
 	public InitAmazon(CatalogueManager catalogueManager) {
 		this.catalogueManager = catalogueManager ;
 	}
 
-	public void init() {
+	public void init(String searchWord) {
 		// Lien pour obtenir la clé d'accès et la clé secrète auprès d'Amazon.
 		// https://portal.aws.amazon.com/gp/aws/securityCredentials
 		/*
@@ -72,7 +73,7 @@ public class InitAmazon {
 		Search search = new Search();
 		search.setCategory("Music");
 		search.setResponseGroup("Offers,ItemAttributes,Images") ;
-		String keywords = "Ibrahim Maalouf" ;
+		String keywords = searchWord;
 		search.setKeywords(keywords);
 
 		Livre livre ;
@@ -101,11 +102,13 @@ public class InitAmazon {
 			if (espaceNom != null && !racine.getName().equals("ItemSearchErrorResponse")) {
 				Element items = racine.getChild("Items",espaceNom) ;
 				Iterator<Element> itemIterator = items.getChildren("Item",espaceNom).iterator() ;
+				System.out.println("espaceNom : " + espaceNom);
 				Element item ;
 				Element itemAttributes ;
-				Element image ;
+				Element image ;		
 				int i = 0 ;
-				while (itemIterator.hasNext() && i != 5) {
+				//items.getContentSize()
+				while (itemIterator.hasNext() && i != items.getContentSize() ) {
 					item = itemIterator.next() ;
 					itemAttributes = item.getChild("ItemAttributes",espaceNom);
 					image = item.getChild("LargeImage",espaceNom);
@@ -211,5 +214,7 @@ public class InitAmazon {
 		catch (IOException e) {
 			e.printStackTrace() ;
 		}
+		
+		connections++;
 	}
 }

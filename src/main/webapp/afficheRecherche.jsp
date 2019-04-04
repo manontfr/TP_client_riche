@@ -5,20 +5,82 @@
 <%@ page import="commerce.catalogue.domaine.modele.Livre"%>
 <%@ page import="commerce.catalogue.domaine.modele.Musique"%>
 <%@ page import="commerce.catalogue.domaine.modele.Piste"%>
+<%@ page import="commerce.catalogue.service.InitAmazon"%>
+
 <%@ page import="java.util.Iterator"%>
 <%@ page import="java.util.List"%>
+
+<%
+     /* Cookie killMyCookie = new Cookie("mycookie", null);
+     killMyCookie.setMaxAge(0);
+     killMyCookie.setPath("/");
+     response.addCookie(killMyCookie); */
+     
+    /*  Cookie[] cookies = request.getCookies();
+     
+     cookies[0].setMaxAge(0);
+     response.addCookie(cookies[0]); */
+     
+%>
+
+<%
+     /* Cookie killMyCookie = new Cookie("mycookie", null);
+     killMyCookie.setMaxAge(0);
+     killMyCookie.setPath("/");
+     response.addCookie(killMyCookie); */
+     
+    /*  Cookie[] cookies = request.getCookies();
+     
+     cookies[0].setMaxAge(0);
+     response.addCookie(cookies[0]); */
+     
+%>
+
 <%
 	if (session.getAttribute("panier")==null) {
 		response.sendRedirect("./index.jsp");
 	} else {
+		/* String word = Word.word; */
 		CatalogueManager catalogueManager = (CatalogueManager) application
 									.getAttribute("catalogueManager");
+		InitAmazon initA = new InitAmazon(catalogueManager);
+		//InitAmazon test = new InitAmazon(catalogueManager);
+		String previousSearch = "";
+		System.out.println("ok :" + request.getParameter("search"));
+		
+		if (request.getParameter("search") != null ) {
+			System.out.println("allo");
+			
+			
+		    List<Article> articles = catalogueManager.getArticles();
+			/* for(Object o : catalogueManager.getArticles()) {
+				articles.add(o);
+			} */
+			
+		    for(Article a : articles) {
+				catalogueManager.supprimerArticleParRef(a.getRefArticle());
+			}
+			initA.init(request.getParameter("search"));
+			/* Cookie[] cookies = request.getCookies();
+		     cookies[0].setMaxAge(0);
+		     response.addCookie(cookies[0]); */
+			
+		} else {
+			initA.init("");
+		}
+		
+		
 		List<Article> articles = catalogueManager.getArticles();
 		Iterator<Article> listeDesArticles ;
 		Livre livre = null;
 		Musique musique = null;
 		Article article;
 %>
+
+
+<%-- <% System.out.println(request.getServletPath());
+System.out.println();
+%> --%>
 <nav id="navigation" class="col-full" role="navigation">
 	<ul id="main-nav" class="nav fl">
 		<li id="menu-item-290"
@@ -44,7 +106,8 @@
 							listeDesArticles = articles.iterator() ;
 							while (listeDesArticles.hasNext()) {
 								article = (Article) listeDesArticles.next();
-					%>
+							 %>
+					
 					<li class="product type-product"><a
 						href="<%=response.encodeURL("./controlePanier.jsp?refArticle="
 								+ article.getRefArticle()
@@ -69,33 +132,33 @@
                             	if (article instanceof Musique) { 
                             		musique = (Musique) article;
                             		if (musique.getPistes().size() > 0) {
-%>
-						<div id="jquery_jplayer_<%=article.getRefArticle()%>" class="jp-jplayer"></div>
-						<div id="jp_container_<%=article.getRefArticle()%>" class="jp-audio" role="application">
-							<div class="jp-type-playlist">
-								<div class="jp-gui jp-interface">
-									<div class="jp-controls-holder">
-										<div class="jp-controls">
-											<button class="jp-previous" role="button" tabindex="0">previous</button>
-											<button class="jp-play" role="button" tabindex="0">play</button>
-											<button class="jp-stop" role="button" tabindex="0">stop</button>
-											<button class="jp-next" role="button" tabindex="0">next</button>
-										</div>
-									</div>
-								</div>
-								<div class="jp-playlist">
-									<ul>
-										<li>&nbsp;</li>
-									</ul>
-								</div>
-								<div class="jp-no-solution">
-									<span>Update Required</span> To play the media you will need to
-									either update your browser to a recent version or update your <a
-										href="http://get.adobe.com/flashplayer/" target="_blank">Flash
-										plugin</a>.
-								</div>
-							</div>
-						</div> 
+                            			%>
+                						<div id="jquery_jplayer_<%=article.getRefArticle()%>" class="jp-jplayer"></div>
+                						<div id="jp_container_<%=article.getRefArticle()%>" class="jp-audio" role="application">
+                							<div class="jp-type-playlist">
+                								<div class="jp-gui jp-interface">
+                									<div class="jp-controls-holder">
+                										<div class="jp-controls">
+                											<button class="jp-previous" role="button" tabindex="0">previous</button>
+                											<button class="jp-play" role="button" tabindex="0">play</button>
+                											<button class="jp-stop" role="button" tabindex="0">stop</button>
+                											<button class="jp-next" role="button" tabindex="0">next</button>
+                										</div>
+                									</div>
+                								</div>
+                								<div class="jp-playlist">
+                									<ul>
+                										<li>&nbsp;</li>
+                									</ul>
+                								</div>
+                								<div class="jp-no-solution">
+                									<span>Update Required</span> To play the media you will need to
+                									either update your browser to a recent version or update your <a
+                										href="http://get.adobe.com/flashplayer/" target="_blank">Flash
+                										plugin</a>.
+                								</div>
+                							</div>
+                						</div> 
 <%
                             		}
                             	}
@@ -157,4 +220,6 @@ $("#jquery_jplayer_<%=article.getRefArticle()%>").bind($.jPlayer.event.play , fu
 <%
 	}
 %>
+
+
 <%@ include file="piedDePage.html"%>

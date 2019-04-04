@@ -19,7 +19,7 @@ import commerce.catalogue.domaine.utilitaire.UniqueKeyGenerator;
 
 public class CatalogueManager {
 
-	private List articles; 
+	private List<Article> articles; 
 	
 	public Article chercherArticleParRef(String inRefArticle) throws Exception {
 		Article article ;
@@ -52,6 +52,21 @@ public class CatalogueManager {
 			throw e; 
 		}
 	}
+	
+//	public void supprimerArticles() {
+//		
+//		Session session = HibernateUtil.getSessionFactory().getCurrentSession() ;
+//		try {
+//			
+//			session.clear();
+//			
+//		}
+//		catch (RuntimeException e) {
+//			if (session.getTransaction() != null)
+//				session.getTransaction().rollback();
+//			throw e; 
+//		}
+//	}
 	public void soumettreArticle(Article inArticle) throws Exception {
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession() ;
 		try {
@@ -93,7 +108,7 @@ public class CatalogueManager {
 	public void setArticles(List inArticles) throws Exception {
 		articles = inArticles;
 	}
-	public List getArticles() throws Exception {
+	public List<Article> getArticles() throws Exception {
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession() ;
 		try {
 			session.beginTransaction();

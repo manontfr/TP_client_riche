@@ -1,149 +1,53 @@
 <ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <OperationRequest>
-    <RequestId>fefdba59-95d1-400a-b3da-076654a40a0a</RequestId>
+    <RequestId>0de844e9-1914-4feb-8f70-cf565830438d</RequestId>
     <Arguments>
-      <Argument Name="Keywords" Value="Ibrahim Maalouf" />
+      <Argument Name="Keywords" Value="" />
       <Argument Name="Operation" Value="ItemSearch" />
       <Argument Name="ResponseGroup" Value="Offers,ItemAttributes" />
       <Argument Name="SearchIndex" Value="Music" />
       <Argument Name="Service" Value="AWSECommerceService" />
-      <Argument Name="Timestamp" Value="2019-03-23T12:40:59Z" />
+      <Argument Name="Timestamp" Value="2019-03-25T07:54:32Z" />
       <Argument Name="Version" Value="2009-03-31" />
     </Arguments>
-    <RequestProcessingTime>2.5185170173645</RequestProcessingTime>
+    <RequestProcessingTime>3.1395559310913</RequestProcessingTime>
   </OperationRequest>
   <Items>
     <Request>
       <IsValid>True</IsValid>
       <ItemSearchRequest>
-        <Keywords>Ibrahim Maalouf</Keywords>
+        <Keywords />
         <ResponseGroup>Offers</ResponseGroup>
         <ResponseGroup>ItemAttributes</ResponseGroup>
         <SearchIndex>music</SearchIndex>
       </ItemSearchRequest>
     </Request>
     <Item>
-      <ASIN>B07HQ7G8GN</ASIN>
+      <ASIN>B0051CBWV8</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41liKe+BxPL._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51uiPtyQ9kL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41liKe+BxPL._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51uiPtyQ9kL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41liKe+BxPL._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51uiPtyQ9kL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>Ibrahim Maalouf</Artist>
+        <Artist>Queen</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B07HQ7G8GN</EAN>
+        <EAN>B0051CBWV8</EAN>
         <EANList>
-          <EANListElement>B07HQ7G8GN</EANListElement>
+          <EANListElement>B0051CBWV8</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>14.12.16 - Live in Paris</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>3999</Amount>
-          <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 39,99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B07FJKSKRC</ASIN>
-      <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51s4XBo3LqL._SL75_.jpg</URL>
-        <Height Units="pixels">74</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51s4XBo3LqL._SL160_.jpg</URL>
-        <Height Units="pixels">157</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51s4XBo3LqL._SL500_.jpg</URL>
-        <Height Units="pixels">492</Height>
-        <Width Units="pixels">500</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Artist>Ibrahim Maalouf</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>B07FJKSKRC</EAN>
-        <EANList>
-          <EANListElement>B07FJKSKRC</EANListElement>
-        </EANList>
-        <ProductGroup>Music</ProductGroup>
-        <Title>Levantine Symphony No. 1</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1699</Amount>
-          <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 16,99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B012TY3XQC</ASIN>
-      <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51on9mCgE4L._SL75_.jpg</URL>
-        <Height Units="pixels">74</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51on9mCgE4L._SL160_.jpg</URL>
-        <Height Units="pixels">157</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/51on9mCgE4L._SL500_.jpg</URL>
-        <Height Units="pixels">492</Height>
-        <Width Units="pixels">500</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Artist>Ibrahim Maalouf</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>B012TY3XQC</EAN>
-        <EANList>
-          <EANListElement>B012TY3XQC</EANListElement>
-        </EANList>
-        <ProductGroup>Music</ProductGroup>
-        <Title>Red &amp; Black Light</Title>
+        <Title>Queen Greatest Hits I, II &amp; III - Platinum Collection</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
@@ -167,133 +71,229 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B074WVY89Z</ASIN>
+      <ASIN>B07GRLPXPB</ASIN>
       <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61EDIrhWG-L._SL75_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51x7sWZIyQL._SL75_.jpg</URL>
         <Height Units="pixels">74</Height>
         <Width Units="pixels">75</Width>
       </SmallImage>
       <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61EDIrhWG-L._SL160_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51x7sWZIyQL._SL160_.jpg</URL>
         <Height Units="pixels">157</Height>
         <Width Units="pixels">160</Width>
       </MediumImage>
       <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/61EDIrhWG-L._SL500_.jpg</URL>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51x7sWZIyQL._SL500_.jpg</URL>
         <Height Units="pixels">492</Height>
         <Width Units="pixels">500</Width>
       </LargeImage>
       <ItemAttributes>
-        <Artist>Ibrahim Maalouf</Artist>
+        <Artist>Lady Gaga</Artist>
         <Binding>Audio CD</Binding>
-        <EAN>B074WVY89Z</EAN>
+        <EAN>B07GRLPXPB</EAN>
         <EANList>
-          <EANListElement>B074WVY89Z</EANListElement>
+          <EANListElement>B07GRLPXPB</EANListElement>
         </EANList>
         <ProductGroup>Music</ProductGroup>
-        <Title>Illusions</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1599</Amount>
-          <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 15,99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B075TQRVB4</ASIN>
-      <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41U6WdEbzbL._SL75_.jpg</URL>
-        <Height Units="pixels">74</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41U6WdEbzbL._SL160_.jpg</URL>
-        <Height Units="pixels">157</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41U6WdEbzbL._SL500_.jpg</URL>
-        <Height Units="pixels">492</Height>
-        <Width Units="pixels">500</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Artist>Ibrahim Maalouf</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>B075TQRVB4</EAN>
-        <EANList>
-          <EANListElement>B075TQRVB4</EANListElement>
-        </EANList>
-        <ProductGroup>Music</ProductGroup>
-        <Title>Dia</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2199</Amount>
-          <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 21,99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B011CWB0M6</ASIN>
-      <SmallImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41L9rDBuYsL._SL75_.jpg</URL>
-        <Height Units="pixels">74</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41L9rDBuYsL._SL160_.jpg</URL>
-        <Height Units="pixels">157</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>https://images-eu.ssl-images-amazon.com/images/I/41L9rDBuYsL._SL500_.jpg</URL>
-        <Height Units="pixels">492</Height>
-        <Width Units="pixels">500</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Artist>Ibrahim Maalouf</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>B011CWB0M6</EAN>
-        <EANList>
-          <EANListElement>B011CWB0M6</EANListElement>
-        </EANList>
-        <ProductGroup>Music</ProductGroup>
-        <Title>Kalthoum</Title>
+        <Title>BOF "A star is born"</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
           <Amount>1499</Amount>
           <CurrencyCode>EUR</CurrencyCode>
           <FormattedPrice>EUR 14,99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B07J34LZKW</ASIN>
+      <SmallImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41UoiByVrnL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41UoiByVrnL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41UoiByVrnL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Soprano</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B07J34LZKW</EAN>
+        <EANList>
+          <EANListElement>B07J34LZKW</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Phoenix [édition limitée]</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1399</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 13,99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B07NRFVBDN</ASIN>
+      <SmallImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51+5mxMaYqL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51+5mxMaYqL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/51+5mxMaYqL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Frédéric François</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B07NRFVBDN</EAN>
+        <EANList>
+          <EANListElement>B07NRFVBDN</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Juste un Peu d'Amour</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1799</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 17,99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B07Q1ZPMSC</ASIN>
+      <SmallImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61Cm8vDc2hL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61Cm8vDc2hL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/61Cm8vDc2hL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Shy'M</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B07Q1ZPMSC</EAN>
+        <EANList>
+          <EANListElement>B07Q1ZPMSC</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Agape / Digipack</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1496</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 14,96</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B07PGPLPVZ</ASIN>
+      <SmallImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41xTJWkV7yL._SL75_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41xTJWkV7yL._SL160_.jpg</URL>
+        <Height Units="pixels">157</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>https://images-eu.ssl-images-amazon.com/images/I/41xTJWkV7yL._SL500_.jpg</URL>
+        <Height Units="pixels">492</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>M. Pokora</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>B07PGPLPVZ</EAN>
+        <EANList>
+          <EANListElement>B07PGPLPVZ</EANListElement>
+        </EANList>
+        <ProductGroup>Music</ProductGroup>
+        <Title>PYRAMIDE (Edition collector)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1999</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 19,99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
