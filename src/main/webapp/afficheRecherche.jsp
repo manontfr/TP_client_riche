@@ -55,10 +55,6 @@
 			class="menu-item menu-item-type-custom menu-item-object-custom">
 			<a href="<%=response.encodeURL("./controlePanier.jsp")%>">Panier</a>
 		</li>
-		<li id="menu-item-290"
-			class="menu-item menu-item-type-custom menu-item-object-custom">
-			<a href="<%=response.encodeURL("./controlePanier.jsp")%>">Test</a>
-		</li>
 		
 			<div class="search-container">
 		     <form action="./afficheRecherche.jsp"  method="POST">    
